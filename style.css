@@ -1,0 +1,91 @@
+li{
+    display: inline;
+    float: left;
+}
+
+.navBar{
+    background-color: lightgreen;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    height: 46px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+    
+}
+.button{
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    height: 55px;
+    top: 13px;
+    position: relative;
+    text-decoration: none;
+}
+.brand{
+    background-color: lightgreen;
+    color: blue;
+    text-align: center;
+    margin: 0;
+    padding: 15px 25px;
+    border: none;
+    font-size: 24px;
+    height: 46px;
+    top: 8px;
+    position: relative;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: grey;
+}
+.active{
+
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    height: 55px;
+    top: 13px;
+    position: relative;
+   text-decoration: none;
+
+}
+.w3-container{
+    background-color: white;
+    text-indent: initial;
+    
+}
+body, h1,h2,h3,h4,h5,h6,pre {font-family: "Montserrat", sans-serif, "Arial"}
+
+.hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+} 
+
+.headerstrip{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 5px;
+    border-color: lightgreen;
+    
+}
