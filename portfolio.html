@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Personal Website Welcome">
+        <meta name="description" content="Personal Website Portfolio">
         <meta name="author" content="Mark Perera 2018">
 
 
@@ -19,10 +19,10 @@
 
         <title>Mark Perera</title>
     </head>
-    <body style="background-color: whitesmoke" >
+    <body style="background-color: whitesmoke;" >
         <!--<img src="IMG_2315.jpg" alt="Welcome Picture" width="1800" height="1500"/>-->
 
-        <ul class="navBar">
+        <ul class="navBar" style="position: static">
             <li><a class="brand"> Mark Perera</a></li>
             <li><a class="button" href="index.html"> Home</a></li>
             <li><a class="active" href="portfolio.html"> Portfolio</a></li>
@@ -30,23 +30,27 @@
             <li style="float:right"><a class="button" href="#"> Contact Me</a></li>
         </ul> 
 
-        <div class="w3-container" style="background-size: 100%; height: fit-content; position: relative ; top: 30px ; background-color: whitesmoke;">
-            <h1 style="text-align: center"> Projects </h1>
+
+        <div class="w3-container" style="background-size: 100%; height: fit-content; position: static ; background-color: whitesmoke; ">
+
+            <h1 style="text-align: center;"> Projects </h1>
             <p>
 
             </p>
 
             <h2 style="background-color: lightgreen" class="headerstrip"> C/C++</h2>
-            <pre style=" font-family: sans-serif; width: 90%"> In my 2nd year of Engineering I took a course called Engineering Communications. Where I build my own GIS(Geographical Information System). With the support of c++ and a modified OpenGL library me and my group of 2 friends 
+            <pre style=" font-family: sans-serif; overflow: auto"> In my 2nd year of Engineering I took a course called Engineering Communications. Where I build my own GIS(Geographical Information System). With the support of c++ and a modified OpenGL library me and my group of 2 friends 
 designed a mapping software similar to Google maps. 
     Our final product was able to search streets, intersections, and POI. With a Dijkstra algorithm we were also able to give the user directions to travel between any two points in the map.
             <a class="button" href="#"> View Screen shots</a>
+
+
             </pre>
 
             <h2 style="background-color: lightgreen;" class="headerstrip" > Java</h2>
             <h4 > Android</h4>
             <!--<hr class="hr">-->
-            <pre style="float: left; font-family: sans-serif"> In the Summer of 2018 I used java to release my very own Tic Tac Toe game on the android application store. The game 
+            <pre style="float: left; font-family: sans-serif; overflow: auto"> In the Summer of 2018 I used java to release my very own Tic Tac Toe game on the android application store. The game 
 has a built in AI for its single player game mode. The AI can be disabled and enabled by the user as needed. My goal was to provide a formidable opponent 
 that will take multiple tries to out maneuver and defeat. 
     In addition, the game provides the user with directions indicating the next player and prompts the user when the game ends. When there is a win or loss
@@ -57,29 +61,46 @@ the game has a designated score board that keeps track of which player is winnin
             <!--            <hr class="hr">-->
 
             <h4> Windows</h4>
-            <pre>
+
+            <pre style="font-family: sans-serif;  overflow: auto">
                 Using Java I designed a front-end on windows in addition to the android platform for my Tic Tac Toe Game. The game follows the same ideas keeps 
 track of the scores, gives the user instructions accordingly and has a builtin AI to play against. 
-<img src="titlepic.PNG" alt="WindowsTicTacToe" style="width: 300px; height: 500px; float: right">
+
+Feel free go ahead and download the game and try it out for yourself. Just make sure you have java runtime environment installed and you have a windows computer. 
+            <a class="button">Download My Game</a>
+
+This is what the basic layout of the game looks like.
+            </pre>
+            <img src="titlepic.PNG" alt="WindowsTicTacToe" style="width: 300px; height: 500px; float: bottom; position: static">
+
+
+
+            <h2 class="headerstrip" style="background-color: lightgreen; position: static"> Web Design</h2>
+            <pre style="font-family: sans-serif;  overflow: auto" > 
+To demonstrate my understanding html and css I designed this website. My goal is to showcase the projects I have done over the years to potential employers. Please feel free to leave any comments or suggestions in the Contact Me page. 
             </pre>
 
 
-            <h2 class="headerstrip" style="background-color: lightgreen"> Web Design</h2>
-            <pre style="float: left; font-family: sans-serif" > To demonstrate my understanding html and css I designed this website. My goal is to showcase the projects I have done over the years to potential employers. Please feel free to leave any comments or suggestions in the Contact Me page. 
+            <h2 class="headerstrip" style="background-color: lightgreen; position: static"> Photography</h2>
+            <pre style=" font-family: sans-serif;  overflow: auto">
+I have had an interest in photography since I was in kindergarten. I started a old school film camera with a lot practice and many blurry pictures later here we are. 
+All the picture in the web site was photographed by me. I have a Cannon T3 with a two high powered lenses. I mainly focus on macro, landscape and nature Photography. Photography is one of the best ways
+I express myself so please feel free to take a look at my work.           
+           <a class="button"> View my Work</a>
             </pre>
 
+            <h2 class="headerstrip" style="background-color: lightgreen; position: static"> Resume and CV</h2>
+            <a class="button"> Resume</a>
+            <a class="button"> General Cover Letter</a>
 
-
-
-            <div style="position: fixed; bottom: 0px; text-align: center; width: 100%">
-                <p>Created By: Mark Perera</p>
-                <p>Last Updated on: 2018-06-09</p> 
-            </div>
 
 
 
         </div>
-
+        <div style="position: static; bottom: 0px; text-align: center; width: 100%">
+            <p>Created By: Mark Perera</p>
+            <p>Last Updated on: 2018-06-09</p> 
+        </div>
 
 
         <script src="js/jquery.js"></script>
