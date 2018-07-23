@@ -11,17 +11,24 @@ body, html {
 .bgImage{
     background-image: url(IMG_2315.jpg); 
     height:100%; background-size: cover; 
-    background-position: center ; 
+    background-position: center ;
     background-repeat: no-repeat;
  
 }
 
 @media screen and (max-width: 800px){
-    ul.navBar li {float: none; display: block; text-align: center}
-    .right {float: none;}
-    
+    ul.navBar li {float: none; display: block; text-align: center; align-items: center}
+    .right {float: none; }
+
+    .bgImage{background-position-y: 200px; position: static }
     
 }
+
+
+
+
+.welcomeBox{ top: 25% }
+
 .navBar{
     background-color: lightgreen;
     list-style-type: none;
@@ -94,6 +101,9 @@ body, html {
 
 }
 body, h1,h2,h3,h4,h5,h6,pre {font-family: "Montserrat", sans-serif, "Arial"}
+
+p{font-size: 20px}
+
 
 .hr { 
     display: block;
