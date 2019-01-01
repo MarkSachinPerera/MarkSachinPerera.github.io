@@ -93,6 +93,7 @@ body, html {
 
 }
 .w3-container{
+    padding: 0.02em 16px;
     background-color: white;
     text-indent: initial;
     position: static;
@@ -150,3 +151,12 @@ p{font-size: 20px}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+.progressbar {
+        background-color:#e91515!important;
+        border-radius:4px
+    }
+.progressbar-background{
+    background-color: lightgray!important;
+    border-radius: 4px
+}
