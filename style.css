@@ -101,6 +101,18 @@ body, html {
     background-size: 100%;
 
 }
+.box{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+.button-relative {
+    position: relative;
+    left: 0px;
+    top: 40px;
+  }
+
 body, h1,h2,h3,h4,h5,h6,pre {font-family: "Montserrat", sans-serif, "Arial"}
 
 p{font-size: 20px}
