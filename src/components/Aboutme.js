@@ -45,13 +45,17 @@ function AboutMe(params) {
                     <Col xs={9} md={6}>
                         <Container>
                             <Card className="text-center">
-                                <Card.Header>Hi &#128400; </Card.Header>
+                                <Card.Header>#47;&#47; Hi &#128400; </Card.Header>
                                 <Card.Body>
+                                <h2>&#47;*</h2>
                                     <Card.Text>
+                                    
                                         I am a 4th year Computer Engineering student at the University of Toronto. I love working in the backend and over this
                                         degree I am focusing on software and networks. I have a special interest in
                                         cybersecurity. Scroll down to see my skills and work experience. The next tab will show you my Projects.
+                                   
                                     </Card.Text>
+                                    <h2>*&#47;</h2>
                                     <Button variant="primary" href="https://1drv.ms/b/s!Ai49P2tnuwTUgvYZnXPNSoAyebQWRw?e=hGpabj">My Offical Resume  </Button>{' '}
                                     <Button variant="primary" href="https://github.com/MarkSachinPerera">Checkout my Github</Button>{' '}
                                     <Button variant="primary" href="https://www.linkedin.com/in/mark-perera-294b27137/">Linkedin  </Button>{' '}

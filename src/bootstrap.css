@@ -85,6 +85,13 @@
    margin-top: 0;
    margin-bottom: 0.5rem;
  }
+
+ h1{
+   color: red;
+ }
+ h4{
+   color: blue;
+ }
  
  p {
    margin-top: 0;
