@@ -27,7 +27,7 @@ function Experience(){
     <h3 className="vertical-timeline-element-title carousel-text">Environment and Climate Change Canada</h3>
     <h4 className="vertical-timeline-element-subtitle carousel-text">Toronto, ON</h4>
     <p className="carousel-text">
-    Internship at as software developer at ECCC. 
+    Internship as software developer at ECCC. 
     </p>
   </VerticalTimelineElement>
 

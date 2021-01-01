@@ -43,9 +43,9 @@ function AboutMe(params) {
                         </Container>
                     </Col>
                     <Col xs={9} md={6}>
-                        <Container>
-                            <Card className="text-center">
-                                <Card.Header>#47;&#47; Hi &#128400; </Card.Header>
+                        <Container fluid>
+                            <Card fluid className="text-center">
+                                <Card.Header>&#47;&#47; Hi &#128400; </Card.Header>
                                 <Card.Body>
                                 <h2>&#47;*</h2>
                                     <Card.Text>
@@ -56,9 +56,9 @@ function AboutMe(params) {
                                    
                                     </Card.Text>
                                     <h2>*&#47;</h2>
-                                    <Button variant="primary" href="https://1drv.ms/b/s!Ai49P2tnuwTUgvYZnXPNSoAyebQWRw?e=hGpabj">My Offical Resume  </Button>{' '}
-                                    <Button variant="primary" href="https://github.com/MarkSachinPerera">Checkout my Github</Button>{' '}
-                                    <Button variant="primary" href="https://www.linkedin.com/in/mark-perera-294b27137/">Linkedin  </Button>{' '}
+                                    <Button className="btn-outline-secondary" href="https://1drv.ms/b/s!Ai49P2tnuwTUgvYZnXPNSoAyebQWRw?e=hGpabj">My Offical Resume  </Button>{' '}
+                                    <Button className="btn-outline-secondary" href="https://github.com/MarkSachinPerera">Checkout my Github</Button>{' '}
+                                    <Button className="btn-outline-secondary" href="https://www.linkedin.com/in/mark-perera-294b27137/">Linkedin  </Button>{' '}
                                 </Card.Body>
                             </Card>
                         </Container>
