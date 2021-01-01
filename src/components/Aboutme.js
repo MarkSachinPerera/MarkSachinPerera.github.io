@@ -11,6 +11,7 @@ import wireshark from '../assets/skill/wireshark.jpg'
 import Experience from './Experience'
 
 
+
 function AboutMe(params) {
 
     var skillList = ['devicon-c-line colored', 'devicon-cplusplus-plain colored', 'devicon-css3-plain-wordmark colored', 'devicon-python-plain colored', 'devicon-mysql-plain-wordmark colored',
@@ -22,12 +23,7 @@ function AboutMe(params) {
         <div>
             <Jumbotron fluid>
                 <Row>
-                    <Col>
-                        <Container>
-
-                        </Container>
-                    </Col>
-                    <Col xs={3} md={4}>
+                    <Col xs={3} md={{span: 4, offset: 1}}>
                         <Container >
                             <CardDeck className="myProfileBorder">
                                 <Card >
@@ -36,13 +32,13 @@ function AboutMe(params) {
                                     </Card.Body>
                                     <Card.Img variant="top" src={profilePic} className="myProfilePicture" />
                                     <Card.Footer>
-                                        <small className="text-muted">Hi! &#128515;</small>
+                                        <small >Hi! &#128515;</small>
                                     </Card.Footer>
                                 </Card>
                             </CardDeck>
                         </Container>
                     </Col>
-                    <Col xs={9} md={6}>
+                    <Col xs={7} md={6}>
                         <Container fluid>
                             <Card fluid className="text-center">
                                 <Card.Header>&#47;&#47; Hi &#128400; </Card.Header>
