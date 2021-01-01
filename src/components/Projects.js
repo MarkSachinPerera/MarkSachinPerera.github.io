@@ -8,6 +8,10 @@ import magic1 from '../assets/Screenshot_20200815-223203_Instagram.jpg'
 import magic2 from '../assets/20200606_220442.jpg'
 import tac1 from '../assets/tictactoe.jpg'
 import tac2 from '../assets/tictactoe2.jpg'
+import Button from 'react-bootstrap/Button'
+import chef1 from '../assets/chef1.jpg'
+import chef2 from '../assets/chef2.jpg'
+import chef3 from '../assets/chef3.jpg'
 
 function Projects() {
     return (
@@ -100,17 +104,18 @@ function Projects() {
 
             <h2>Tic-Tac-Toe Game</h2>
             <p><small>In the Summer of 2018 I used java to
-                release my very own Tic Tac Toe game
-                on the android application store. The game has a built in AI for its single player game mode. The AI
-                can be
-                disabled and enabled
-                by the user as needed. My goal was to provide a formidable opponent that will take multiple tries to
-                out
-                maneuver and defeat.
-                In addition, the game provides the user with directions indicating the next player and prompts the user
-                when the game ends. When
-                there is a win or loss the game has a designated score board that keeps track of which player is
+            release my very own Tic Tac Toe game
+            on the android application store. The game has a built in AI for its single player game mode. The AI
+            can be
+            disabled and enabled
+            by the user as needed. My goal was to provide a formidable opponent that will take multiple tries to
+            out
+            maneuver and defeat.
+            In addition, the game provides the user with directions indicating the next player and prompts the user
+            when the game ends. When
+            there is a win or loss the game has a designated score board that keeps track of which player is
                 winning.</small></p>
+            <Button className="btn-outline-secondary" href="https://play.google.com/store/apps/details?id=com.markperera.tictactoe">Go to the Playstore </Button>{' '}
 
             <Carousel className="w-auto">
                 <Carousel.Item >
@@ -130,6 +135,55 @@ function Projects() {
                 </Carousel.Item>
 
             </Carousel>
+
+            <br/>
+
+            <h2>Chef-co Pilot</h2>
+            <p><small>This was a class project. I worked in a group of 3 people. Our task was to interview potential stakeholders such as students and grocery store workers
+                and create a web application that can help students to better manage their time.
+                
+                I was the a frontend developer for this project and we used ReactJs to build the user interface. This is hosted on herko. Due to unseen circumstances the backend was never fully completed.
+                Due to this, the site does not have the fully polised finish I was hoping.
+                
+                (give the site some time to load).</small></p>
+            <Button className="btn-outline-secondary" href="https://chef-copilot.herokuapp.com/Recipes">Visit the site </Button>{' '}
+            <br/>
+            <br/>
+            <Carousel className="w-100 h-100">
+                <Carousel.Item >
+                    <img
+                        src={chef1}
+                        alt=""
+                        className="w-75 h-50 center"
+                    />
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="w-75 h-50 center"
+                        src={chef2}
+                        alt=""
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="w-75 h-50 center"
+                        src={chef3}
+                        alt=""
+                    />
+                </Carousel.Item>
+
+            </Carousel>
+
+            <br/>
+
+            <h2>Search Engine</h2>
+            <p><small> As a part of my programming languages course, my teammate and I designed a search engine that we
+                deployed through AWS.
+                Our primary languages included HTML, Redis, CSS, and python. My main focus was on the backend. I implemented a crawler and page
+                ranker that ran at startup to build our databases that provided information to the frontend.</small></p>
+            <Button className="btn-outline-secondary" href="https://github.com/MarkSachinPerera/CSC326">Visit the Repository </Button>{' '}
+            <br/>
 
         </Container>
 
