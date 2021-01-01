@@ -50,7 +50,7 @@ function AboutMe(params) {
                                     <Card.Text>
                                         I am a 4th year Computer Engineering student at the University of Toronto. I love working in the backend and over this
                                         degree I am focusing on software and networks. I have a special interest in
-                                        cybersecurity. Scroll down to see my skills, work experience and projects. The next tab will show you my resume and methods to contact me.
+                                        cybersecurity. Scroll down to see my skills and work experience. The next tab will show you my Projects.
                                     </Card.Text>
                                     <Button variant="primary" href="https://1drv.ms/b/s!Ai49P2tnuwTUgvYZnXPNSoAyebQWRw?e=hGpabj">My Offical Resume  </Button>{' '}
                                     <Button variant="primary" href="https://github.com/MarkSachinPerera">Checkout my Github</Button>{' '}
