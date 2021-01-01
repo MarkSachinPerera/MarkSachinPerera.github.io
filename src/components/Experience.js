@@ -1,6 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
+
 function Experience(){
 
     return(
@@ -10,9 +11,9 @@ function Experience(){
     date="In Progress"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h3 className="vertical-timeline-element-title">Computer Engineering Student</h3>
-    <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
-    <p>
+    <h3 className="vertical-timeline-element-title carousel-text">Computer Engineering Student</h3>
+    <h4 className="vertical-timeline-element-subtitle carousel-text">Toronto, ON</h4>
+    <p className="carousel-text">
       Computer Engineering degree at the University of Toronto. 
     </p>
   </VerticalTimelineElement>
@@ -23,9 +24,9 @@ function Experience(){
     date="2019 - 2020"
     iconStyle={{ background: 'rgb(255, 0, 0)', color: '#fff' }}
   >
-    <h3 className="vertical-timeline-element-title">Environment and Climate Change Canada</h3>
-    <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
-    <p>
+    <h3 className="vertical-timeline-element-title carousel-text">Environment and Climate Change Canada</h3>
+    <h4 className="vertical-timeline-element-subtitle carousel-text">Toronto, ON</h4>
+    <p className="carousel-text">
     Internship at as software developer at ECCC. 
     </p>
   </VerticalTimelineElement>

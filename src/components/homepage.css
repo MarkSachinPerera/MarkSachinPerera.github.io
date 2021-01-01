@@ -66,3 +66,9 @@
 .carousel{
   align-content: center;
 }
+.carousel-text{
+  color: rgb(0, 0, 92);
+}
+.jumbotron{
+  background-color: "#1D252C" !important;  
+}

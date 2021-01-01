@@ -13,7 +13,7 @@ function Homepage() {
 
 
       <Tab.Container defaultActiveKey="Home">
-        <Nav fill variant="tabs" className="custom-nav-bg">
+        <Nav fill variant="tabs">
           <Nav.Item>
             <Nav.Link eventKey="Home">Home</Nav.Link>
           </Nav.Item>
