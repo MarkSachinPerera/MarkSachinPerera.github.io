@@ -65,6 +65,7 @@ function AboutMe(params) {
                     </Col>
                 </Row>
             </Jumbotron>
+            <br/>
             <Jumbotron>
                 <Container>
                     <h1 className="text-center">Skills</h1>

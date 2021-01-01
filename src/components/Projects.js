@@ -9,6 +9,8 @@ function Projects() {
     return (
 
         <Container fluid="md">
+            <h2>GIS Project</h2>
+            <p><small>Worked in a team of 3. We used C++ and the OpenStreetMaps library for this.</small></p>
             <Carousel className="w-80">
                 <Carousel.Item >
                     <img
@@ -16,7 +18,7 @@ function Projects() {
                         alt=""
                         className="w-100"
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text">Searching for a street, POI, or an intersection</h3>
                         <h5 className="carousel-text">The user enters a partial query and presses return.</h5> 
                     </Carousel.Caption>
@@ -28,7 +30,7 @@ function Projects() {
                         alt=""
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text" >Auto-Complete of the search</h3>
                         <h5 className="carousel-text" >The program will return results based on longest match.</h5> 
                     </Carousel.Caption>
@@ -40,7 +42,7 @@ function Projects() {
                         alt=""
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text" >Close up view</h3>
                         <h5 className="carousel-text" >Close up view street view showing POIs and streets.</h5> 
                     </Carousel.Caption>
@@ -52,7 +54,7 @@ function Projects() {
                         alt=""
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text" >Navigation</h3>
                         <h5 className="carousel-text" >Demo of our navigation from point A to B. The directions were compiled after running Dijkstar.</h5> 
                     </Carousel.Caption>
