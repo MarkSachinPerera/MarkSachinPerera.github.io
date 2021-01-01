@@ -1,7 +1,7 @@
 import './homepage.css';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Image, Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import profilePic from '../assets/profilePic.jpg'
@@ -44,12 +44,19 @@ function AboutMe(params) {
                     </Col>
                     <Col xs={9} md={6}>
                         <Container>
-                            <h1>Hi &#128400; </h1>
-                            <p>
-                                I am a 4th year Computer Engineering student at the University of Toronto. I love working in the backend and over this
-                                degree I am focusing on software and networks. I have a special interest in
-                                cybersecurity. Scroll down to see my skills, work experience and projects. The next tab will show you my resume and methods to contact me.
-                                </p>
+                            <Card className="text-center">
+                                <Card.Header>Hi &#128400; </Card.Header>
+                                <Card.Body>
+                                    <Card.Text>
+                                        I am a 4th year Computer Engineering student at the University of Toronto. I love working in the backend and over this
+                                        degree I am focusing on software and networks. I have a special interest in
+                                        cybersecurity. Scroll down to see my skills, work experience and projects. The next tab will show you my resume and methods to contact me.
+                                    </Card.Text>
+                                    <Button variant="primary" href="https://1drv.ms/b/s!Ai49P2tnuwTUgvYZnXPNSoAyebQWRw?e=hGpabj">My Offical Resume  </Button>{' '}
+                                    <Button variant="primary" href="https://github.com/MarkSachinPerera">Checkout my Github</Button>{' '}
+                                    <Button variant="primary" href="https://www.linkedin.com/in/mark-perera-294b27137/">Linkedin  </Button>{' '}
+                                </Card.Body>
+                            </Card>
                         </Container>
                     </Col>
                 </Row>
@@ -61,23 +68,23 @@ function AboutMe(params) {
                         {skillList.map((skill) => (
                             <Col xs={2} md={2} className="p-3">
                                 <Container>
-                                    <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>  
+                                    <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>
                                 </Container>
                             </Col>
                         ))}
                         {skillList2.map((skill) => (
                             <Col xs={2} md={2} className="p-3">
                                 <Container>
-                                     <Image src={skill} className="icon"></Image>
+                                    <Image src={skill} className="icon"></Image>
                                 </Container>
                             </Col>
                         ))}
-                    </Row> 
+                    </Row>
                 </Container>
             </Jumbotron>
             <Jumbotron>
-            <h1 className="text-center">Experience</h1>
-                            <Experience/>
+                <h1 className="text-center">Experience</h1>
+                <Experience />
             </Jumbotron>
 
         </div>

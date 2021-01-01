@@ -1,5 +1,4 @@
 import './homepage.css';
-// import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import { Row, Col, Nav, Tab } from 'react-bootstrap';
 import AboutMe from './Aboutme'
@@ -24,9 +23,7 @@ function Homepage() {
           <Nav.Item>
             <Nav.Link eventKey="Projects">Projects</Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="Resume">Resume</Nav.Link>
-          </Nav.Item>
+          
         </Nav>
         <Tab.Content>
           <Tab.Pane eventKey="Home">
@@ -56,13 +53,7 @@ function Homepage() {
               <Projects />
             </Jumbotron>
           </Tab.Pane>
-          <Tab.Pane eventKey="Resume">
-            <Jumbotron>
-              <h1 className="text-center">Resume</h1>
-              <br />
-              Work in Progress
-            </Jumbotron>
-          </Tab.Pane>
+
 
 
         </Tab.Content>
