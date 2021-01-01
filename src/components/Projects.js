@@ -18,7 +18,7 @@ function Projects() {
                     />
                     <Carousel.Caption>
                         <h3 className="carousel-text">Searching for a street, POI, or an intersection</h3>
-                        <p className="carousel-text">The user enters a partial query and presses return.</p>
+                        <h5 className="carousel-text">The user enters a partial query and presses return.</h5> 
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -30,7 +30,7 @@ function Projects() {
 
                     <Carousel.Caption>
                         <h3 className="carousel-text" >Auto-Complete of the search</h3>
-                        <p className="carousel-text" >The program will return results based on longest match.</p>
+                        <h5 className="carousel-text" >The program will return results based on longest match.</h5> 
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -41,8 +41,8 @@ function Projects() {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="carousel-text" >Third slide label</h3>
-                        <p className="carousel-text" >Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className="carousel-text" >Close up view</h3>
+                        <h5 className="carousel-text" >Close up view street view showing POIs and streets.</h5> 
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -53,8 +53,8 @@ function Projects() {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="carousel-text" >Third slide label</h3>
-                        <p className="carousel-text" >Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className="carousel-text" >Navigation</h3>
+                        <h5 className="carousel-text" >Demo of our navigation from point A to B. The directions were compiled after running Dijkstar.</h5> 
                     </Carousel.Caption>
                 </Carousel.Item>
 

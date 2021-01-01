@@ -51,8 +51,8 @@
   max-width: 400px;
 }
 .myProfileBorder{
-  width: 400px;
-  height: 600px;
+  width: 390px;
+  height: 390px;
 }
 
 .skillCardBorder{
@@ -68,6 +68,9 @@
 }
 .carousel-text{
   color: rgb(0, 0, 92);
+}
+.carousel-subtext{
+  color: rgb(0, 0, 0);
 }
 .jumbotron{
   background-color: "#1D252C" !important;  
