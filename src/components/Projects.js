@@ -43,10 +43,10 @@ function Projects() {
                         alt=""
                         className="w-100 h-auto center"
                     />
-                    <Carousel.Caption className="carousel-subtext">
+                    {/* <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text">Searching for a street, POI, or an intersection</h3>
                         <h5 className="carousel-text">The user enters a partial query and presses return.</h5>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -55,10 +55,10 @@ function Projects() {
                         alt=""
                     />
 
-                    <Carousel.Caption className="carousel-subtext">
+                    {/* <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text" >Auto-Complete of the search</h3>
                         <h5 className="carousel-text" >The program will return results based on longest match.</h5>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -67,10 +67,10 @@ function Projects() {
                         alt=""
                     />
 
-                    <Carousel.Caption className="carousel-subtext">
+                    {/* <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text" >Close up view</h3>
                         <h5 className="carousel-text" >Close up view street view showing POIs and streets.</h5>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -79,10 +79,10 @@ function Projects() {
                         alt=""
                     />
 
-                    <Carousel.Caption className="carousel-subtext">
+                    {/* <Carousel.Caption className="carousel-subtext">
                         <h3 className="carousel-text" >Navigation</h3>
                         <h5 className="carousel-text" >Demo of our navigation from point A to B. The directions were compiled after running Dijkstar.</h5>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
 
             </Carousel>
@@ -160,18 +160,18 @@ function Projects() {
 
             
 
-            <Carousel className="w-auto">
+            <Carousel className="w-75 center">
                 <Carousel.Item >
                     <img
                         src={tac1}
                         alt=""
-                        className="w-auto h-auto center"
+                        className="w-75 h-auto center"
                     />
 
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="w-auto h-auto center"
+                        className="w-75 h-auto center"
                         src={tac2}
                         alt=""
                     />
