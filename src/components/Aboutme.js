@@ -23,7 +23,7 @@ function AboutMe(params) {
         <div>
             <Jumbotron fluid>
                 <Row>
-                    <Col xs={3} md={{span: 4, offset: 1}}>
+                    <Col md={{span: 4, offset: 1}} className="center">
                         <Container >
                             <CardDeck className="myProfileBorder">
                                 <Card >
@@ -38,9 +38,9 @@ function AboutMe(params) {
                             </CardDeck>
                         </Container>
                     </Col>
-                    <Col xs={7} md={6}>
-                        <Container fluid>
-                            <Card fluid className="text-center">
+                    <Col  md={6} className="center aboutmeP">
+                        <Container >
+                            <Card  className="text-center">
                                 <Card.Header>&#47;&#47; Hi &#128400; </Card.Header>
                                 <Card.Body>
                                 <h2>&#47;*</h2>
@@ -64,23 +64,32 @@ function AboutMe(params) {
             <br/>
             <Jumbotron>
                 <Container>
-                    <h1 className="text-center">Skills</h1>
-                    <Row>
-                        {skillList.map((skill) => (
-                            <Col xs={2} md={2} className="p-3">
-                                <Container>
-                                    <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>
-                                </Container>
-                            </Col>
-                        ))}
-                        {skillList2.map((skill) => (
-                            <Col xs={2} md={2} className="p-3">
-                                <Container>
-                                    <Image src={skill} className="icon"></Image>
-                                </Container>
-                            </Col>
-                        ))}
-                    </Row>
+                    
+                    
+                        <Card fluid className="text-center">
+                        <Card.Header><h1 className="text-center">Skills</h1> </Card.Header>
+                            <Card.Body>
+                                <Card.Text>
+                                <Row>
+                                    {skillList.map((skill) => (
+                                        <Col xs={2} md={2} className="p-3">
+                                            <Container>
+                                                <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>
+                                            </Container>
+                                        </Col>
+                                    ))}
+                                    {skillList2.map((skill) => (
+                                        <Col xs={2} md={2} className="p-3">
+                                            <Container>
+                                                <Image src={skill} className="icon"></Image>
+                                            </Container>
+                                        </Col>
+                                    ))}
+                                    </Row>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    
                 </Container>
             </Jumbotron>
             <Jumbotron>
