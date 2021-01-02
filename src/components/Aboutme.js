@@ -23,7 +23,7 @@ function AboutMe(params) {
         <div>
             <Jumbotron fluid>
                 <Row>
-                    <Col xs={3} md={{span: 4, offset: 1}}>
+                    <Col md={{span: 4, offset: 1}} className="center">
                         <Container >
                             <CardDeck className="myProfileBorder">
                                 <Card >
@@ -38,9 +38,9 @@ function AboutMe(params) {
                             </CardDeck>
                         </Container>
                     </Col>
-                    <Col xs={7} md={6}>
-                        <Container fluid>
-                            <Card fluid className="text-center">
+                    <Col  md={6} className="center aboutmeP">
+                        <Container >
+                            <Card  className="text-center">
                                 <Card.Header>&#47;&#47; Hi &#128400; </Card.Header>
                                 <Card.Body>
                                 <h2>&#47;*</h2>
