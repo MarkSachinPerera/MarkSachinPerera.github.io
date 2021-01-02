@@ -40,7 +40,7 @@
   color: rgb(0, 0, 0);
 }
 
-.custom-nav-bg {
+.custom-skills{
   background-color: #ffffff !important;
 }
 
@@ -83,8 +83,4 @@
 }
 .aboutmeP{
   padding: 10vh;
-}
-
-.welcome-text{
-  color: rgb(109, 109, 109);
 }

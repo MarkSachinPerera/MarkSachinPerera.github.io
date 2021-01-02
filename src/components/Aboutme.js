@@ -45,7 +45,8 @@ function AboutMe(params) {
                                 <Card.Body>
                                 <h2>&#47;*</h2>
                                     <Card.Text>
-                                    
+                                        Hi, my name is Mark Perera. This is my personal web page showing my resume
+                                        and projects I have done. 
                                         I am a 4th year Computer Engineering student at the University of Toronto. I love working in the backend and over this
                                         degree I am focusing on software and networks. I have a special interest in
                                         cybersecurity. Scroll down to see my skills and work experience. The next tab will show you my Projects.
@@ -62,7 +63,7 @@ function AboutMe(params) {
                 </Row>
             </Jumbotron>
             <br/>
-            <Jumbotron className="custom-nav-bg">
+            <Jumbotron className="custom-skills">
 
             <h1 className="text-center">Skills</h1>
                 <Container >               
