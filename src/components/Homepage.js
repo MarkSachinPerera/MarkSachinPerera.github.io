@@ -31,8 +31,8 @@ function Homepage() {
               <Container fluid>
                 <Row>
                   <Col md={5}>
-                    <h1>&#47;&#47; Welcome!</h1>
-                    <h4>
+                    <h1 className="welcome-text">&#47;&#47; Welcome!</h1>
+                    <h4 className="welcome-text">
                     &#47;* Hi, my name is Mark Perera. This is my personal web page showing my resume
                       and projects I have done. *&#47;</h4>
                   </Col>

@@ -41,7 +41,7 @@
 }
 
 .custom-nav-bg {
-  background-color: #eeeeee;
+  background-color: #ffffff !important;
 }
 
 .myProfilePicture{
@@ -83,4 +83,8 @@
 }
 .aboutmeP{
   padding: 10vh;
+}
+
+.welcome-text{
+  color: rgb(109, 109, 109);
 }

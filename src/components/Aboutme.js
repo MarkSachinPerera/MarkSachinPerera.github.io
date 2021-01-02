@@ -62,33 +62,27 @@ function AboutMe(params) {
                 </Row>
             </Jumbotron>
             <br/>
-            <Jumbotron>
-                <Container>
+            <Jumbotron className="custom-nav-bg">
+
+            <h1 className="text-center">Skills</h1>
+                <Container >               
                     
-                    
-                        <Card fluid className="text-center">
-                        <Card.Header><h1 className="text-center">Skills</h1> </Card.Header>
-                            <Card.Body>
-                                <Card.Text>
-                                <Row>
-                                    {skillList.map((skill) => (
-                                        <Col xs={2} md={2} className="p-3">
-                                            <Container>
-                                                <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>
-                                            </Container>
-                                        </Col>
-                                    ))}
-                                    {skillList2.map((skill) => (
-                                        <Col xs={2} md={2} className="p-3">
-                                            <Container>
-                                                <Image src={skill} className="icon"></Image>
-                                            </Container>
-                                        </Col>
-                                    ))}
-                                    </Row>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                    <Row>
+                        {skillList.map((skill) => (
+                            <Col xs={2} md={2} className="p-3">
+                                <Container>
+                                    <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>
+                                </Container>
+                            </Col>
+                        ))}
+                        {skillList2.map((skill) => (
+                            <Col xs={2} md={2} className="p-3">
+                                <Container>
+                                    <Image src={skill} className="icon"></Image>
+                                </Container>
+                            </Col>
+                        ))}
+                        </Row>
                     
                 </Container>
             </Jumbotron>
