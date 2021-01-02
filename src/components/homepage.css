@@ -40,8 +40,8 @@
   color: rgb(0, 0, 0);
 }
 
-.custom-nav-bg {
-  background-color: #eeeeee;
+.custom-skills{
+  background-color: #ffffff !important;
 }
 
 .myProfilePicture{
@@ -82,5 +82,5 @@
   width: 50%;
 }
 .aboutmeP{
-  padding: 10vh;
+  padding: 15vh;
 }

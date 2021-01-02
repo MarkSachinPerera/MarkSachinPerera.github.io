@@ -45,7 +45,8 @@ function AboutMe(params) {
                                 <Card.Body>
                                 <h2>&#47;*</h2>
                                     <Card.Text>
-                                    
+                                        Hi, my name is Mark Perera. This is my personal web page showing my resume
+                                        and projects I have done. 
                                         I am a 4th year Computer Engineering student at the University of Toronto. I love working in the backend and over this
                                         degree I am focusing on software and networks. I have a special interest in
                                         cybersecurity. Scroll down to see my skills and work experience. The next tab will show you my Projects.
@@ -62,33 +63,27 @@ function AboutMe(params) {
                 </Row>
             </Jumbotron>
             <br/>
-            <Jumbotron>
-                <Container>
+            <Jumbotron className="custom-skills">
+
+            <h1 className="text-center">Skills</h1>
+                <Container >               
                     
-                    
-                        <Card fluid className="text-center">
-                        <Card.Header><h1 className="text-center">Skills</h1> </Card.Header>
-                            <Card.Body>
-                                <Card.Text>
-                                <Row>
-                                    {skillList.map((skill) => (
-                                        <Col xs={2} md={2} className="p-3">
-                                            <Container>
-                                                <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>
-                                            </Container>
-                                        </Col>
-                                    ))}
-                                    {skillList2.map((skill) => (
-                                        <Col xs={2} md={2} className="p-3">
-                                            <Container>
-                                                <Image src={skill} className="icon"></Image>
-                                            </Container>
-                                        </Col>
-                                    ))}
-                                    </Row>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                    <Row>
+                        {skillList.map((skill) => (
+                            <Col xs={2} md={2} className="p-3">
+                                <Container>
+                                    <i className={skill} style={{ fontSize: "300%", alignContent: "center" }}></i>
+                                </Container>
+                            </Col>
+                        ))}
+                        {skillList2.map((skill) => (
+                            <Col xs={2} md={2} className="p-3">
+                                <Container>
+                                    <Image src={skill} className="icon"></Image>
+                                </Container>
+                            </Col>
+                        ))}
+                        </Row>
                     
                 </Container>
             </Jumbotron>
