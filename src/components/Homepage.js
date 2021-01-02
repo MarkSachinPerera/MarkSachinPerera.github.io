@@ -13,7 +13,7 @@ function Homepage() {
 
 
       <Tab.Container defaultActiveKey="Home">
-        <Nav fill variant="tabs" className="custom-nav-bg">
+        <Nav fill variant="tabs" className="navbar-dark bg-dark">
           <Nav.Item>
             <Nav.Link eventKey="Home">Home</Nav.Link>
           </Nav.Item>
@@ -31,10 +31,10 @@ function Homepage() {
               <Container fluid>
                 <Row>
                   <Col md={5}>
-                    <h1>Welcome!</h1>
-                    <p>
-                      Hi, my name is Mark Perera. This is my personal web page showing my resume
-                      and projects I have done.</p>
+                    <h1>&#47;&#47; Welcome!</h1>
+                    <h4>
+                    &#47;* Hi, my name is Mark Perera. This is my personal web page showing my resume
+                      and projects I have done. *&#47;</h4>
                   </Col>
                 </Row>
 

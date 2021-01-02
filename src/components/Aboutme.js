@@ -11,6 +11,7 @@ import wireshark from '../assets/skill/wireshark.jpg'
 import Experience from './Experience'
 
 
+
 function AboutMe(params) {
 
     var skillList = ['devicon-c-line colored', 'devicon-cplusplus-plain colored', 'devicon-css3-plain-wordmark colored', 'devicon-python-plain colored', 'devicon-mysql-plain-wordmark colored',
@@ -22,12 +23,7 @@ function AboutMe(params) {
         <div>
             <Jumbotron fluid>
                 <Row>
-                    <Col>
-                        <Container>
-
-                        </Container>
-                    </Col>
-                    <Col xs={3} md={4}>
+                    <Col xs={3} md={{span: 4, offset: 1}}>
                         <Container >
                             <CardDeck className="myProfileBorder">
                                 <Card >
@@ -36,31 +32,36 @@ function AboutMe(params) {
                                     </Card.Body>
                                     <Card.Img variant="top" src={profilePic} className="myProfilePicture" />
                                     <Card.Footer>
-                                        <small className="text-muted">Hi! &#128515;</small>
+                                        <small >Hi! &#128515;</small>
                                     </Card.Footer>
                                 </Card>
                             </CardDeck>
                         </Container>
                     </Col>
-                    <Col xs={9} md={6}>
-                        <Container>
-                            <Card className="text-center">
-                                <Card.Header>Hi &#128400; </Card.Header>
+                    <Col xs={7} md={6}>
+                        <Container fluid>
+                            <Card fluid className="text-center">
+                                <Card.Header>&#47;&#47; Hi &#128400; </Card.Header>
                                 <Card.Body>
+                                <h2>&#47;*</h2>
                                     <Card.Text>
+                                    
                                         I am a 4th year Computer Engineering student at the University of Toronto. I love working in the backend and over this
                                         degree I am focusing on software and networks. I have a special interest in
                                         cybersecurity. Scroll down to see my skills and work experience. The next tab will show you my Projects.
+                                   
                                     </Card.Text>
-                                    <Button variant="primary" href="https://1drv.ms/b/s!Ai49P2tnuwTUgvYZnXPNSoAyebQWRw?e=hGpabj">My Offical Resume  </Button>{' '}
-                                    <Button variant="primary" href="https://github.com/MarkSachinPerera">Checkout my Github</Button>{' '}
-                                    <Button variant="primary" href="https://www.linkedin.com/in/mark-perera-294b27137/">Linkedin  </Button>{' '}
+                                    <h2>*&#47;</h2>
+                                    <Button className="btn-outline-secondary" href="https://1drv.ms/b/s!Ai49P2tnuwTUgvYZnXPNSoAyebQWRw?e=hGpabj">My Offical Resume  </Button>{' '}
+                                    <Button className="btn-outline-secondary" href="https://github.com/MarkSachinPerera">Checkout my Github</Button>{' '}
+                                    <Button className="btn-outline-secondary" href="https://www.linkedin.com/in/mark-perera-294b27137/">Linkedin  </Button>{' '}
                                 </Card.Body>
                             </Card>
                         </Container>
                     </Col>
                 </Row>
             </Jumbotron>
+            <br/>
             <Jumbotron>
                 <Container>
                     <h1 className="text-center">Skills</h1>
