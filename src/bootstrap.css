@@ -4168,10 +4168,12 @@
  
  .nav-tabs .nav-link {
    border: 1px solid transparent;
+   color: white;
  }
  
  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
    border-color: #f7f7f9 #f7f7f9 #eceeef;
+   color: white;
  }
  
  .nav-tabs .nav-link.disabled {
