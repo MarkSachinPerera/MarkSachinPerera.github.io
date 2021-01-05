@@ -13,6 +13,11 @@ import chef1 from '../assets/chef1.jpg'
 import chef2 from '../assets/chef2.jpg'
 import chef3 from '../assets/chef3.jpg'
 import Card from 'react-bootstrap/Card'
+import tcp1 from '../assets/tcpclient/openconnection-3.jpg'
+import tcp2 from '../assets/tcpclient/openconnection-4.jpg'
+import gns1 from '../assets/gns3/advancedSDN.jpg'
+import gns2 from '../assets/gns3/level2SDN.jpg'
+import wireshark1 from '../assets/gns3/wireshark.jpg'
 
 function Projects() {
     return (
@@ -88,6 +93,93 @@ function Projects() {
             </Carousel>
 
             <br />
+
+            <Container fluid>
+                <Card fluid className="text-center">
+                    <Card.Header>&#47;&#47; TCP Client </Card.Header>
+                        <Card.Body>
+                            <h2>&#47;*</h2>
+                            <Card.Text>
+            
+                            I built a centralized TCP messaging client over the summer for a small side project. This was written in C. This supports 5 concurrent connections. I limit it to 5 to make the workload
+                            manageable. Also, this is multithread. The main thread accepts connection the rest to allocated on a per connection basis.
+        
+                            </Card.Text>
+                            <h2>*&#47;</h2>
+                            <Button className="btn-outline-secondary" href="https://github.com/MarkSachinPerera/tcpClient">View Code </Button>{' '}
+                        </Card.Body>
+                </Card>
+            </Container>
+            <br/>
+
+            <Carousel className="w-100 h-50">
+                <Carousel.Item >
+                    <img
+                        src={tcp1}
+                        alt=""
+                        className="w-100 h-50 center"
+                    />
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="w-100 h-50 center"
+                        src={tcp2}
+                        alt=""
+                    />
+                </Carousel.Item>
+
+            </Carousel>
+
+            <br/>
+
+            <Container fluid>
+                <Card fluid className="text-center">
+                    <Card.Header>&#47;&#47; GNS3 </Card.Header>
+                        <Card.Body>
+                            <h2>&#47;*</h2>
+                            <Card.Text>
+            
+                            This is exercise to was simulate a internal network with GNS3 and understand the behaviour of machines within this network with wireshark. By capturing the packets sent due to a ping command,
+                            the goal was to understand the inner working of the ping command and how network addresses are resolved. 
+
+                            This was a very small example of how I have used wireshark and GNS3. I have also used this software to simulate more complicated simulations such as modifying PCs to behave like routers and 
+                            the count to infinity problem with the RIP protocol.
+        
+                            </Card.Text>
+                            <h2>*&#47;</h2>
+                        </Card.Body>
+                </Card>
+            </Container>
+            <br/>
+
+            <Carousel className="w-100 h-50">
+                <Carousel.Item >
+                    <img
+                        src={gns1}
+                        alt=""
+                        className="w-100 h-50 center"
+                    />
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="w-100 h-50 center"
+                        src={gns2}
+                        alt=""
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="w-100 h-50 center"
+                        src={wireshark1}
+                        alt=""
+                    />
+                </Carousel.Item>
+
+            </Carousel>
+
+            <br/>
 
             <Container fluid>
                 <Card fluid className="text-center">
