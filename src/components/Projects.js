@@ -18,6 +18,9 @@ import tcp2 from '../assets/tcpclient/openconnection-4.jpg'
 import gns1 from '../assets/gns3/advancedSDN.jpg'
 import gns2 from '../assets/gns3/level2SDN.jpg'
 import wireshark1 from '../assets/gns3/wireshark.jpg'
+import plot1 from '../assets/Cwebserver/runtimeVcachesize.jpg'
+import plot2 from '../assets/Cwebserver/runtimeVmaxrequest.jpg'
+import plot3 from '../assets/Cwebserver/runtimeVthreads.jpg'
 
 function Projects() {
     return (
@@ -110,6 +113,33 @@ function Projects() {
                         </Card.Body>
                 </Card>
             </Container>
+            <br/>
+
+            <Carousel className="">
+                <Carousel.Item >
+                    <img
+                        src={plot1}
+                        alt=""
+                        className=" center"
+                    />
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className=" center"
+                        src={plot2}
+                        alt=""
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className=" center"
+                        src={plot3}
+                        alt=""
+                    />
+                </Carousel.Item>
+
+            </Carousel>
             <br/>
 
             <Container fluid>
