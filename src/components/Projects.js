@@ -96,6 +96,24 @@ function Projects() {
 
             <Container fluid>
                 <Card fluid className="text-center">
+                    <Card.Header>&#47;&#47; Multi-Threaded Web Server </Card.Header>
+                        <Card.Body>
+                            <h2>&#47;*</h2>
+                            <Card.Text>
+            
+                            I developed a multi-threaded web server, and evaluated its performance. This is written in C and bash.  The goal here is optimize the performance of the webserver and the way it handles
+                            requests. The key here was implementing a good data structure that will serve connections efficiently. 
+        
+                            </Card.Text>
+                            <h2>*&#47;</h2>
+                            <Button className="btn-outline-secondary" href="https://github.com/MarkSachinPerera/CWebServer">View Code </Button>{' '}
+                        </Card.Body>
+                </Card>
+            </Container>
+            <br/>
+
+            <Container fluid>
+                <Card fluid className="text-center">
                     <Card.Header>&#47;&#47; TCP Client </Card.Header>
                         <Card.Body>
                             <h2>&#47;*</h2>
