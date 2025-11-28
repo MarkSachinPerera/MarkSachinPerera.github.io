@@ -1,25 +1,24 @@
 import React from 'react';
 
-import imgTic from '../assets/tictactoe.jpg';
-import imgTic2 from '../assets/tictactoe2.jpg';
+import imgOpenConn from '../assets/tcpclient/openconnection-3.jpg';
 import imgAdvanced from '../assets/gns3/advancedSDN.jpg';
 import placeholder from '../assets/297Images/img0.jpg';
 
 const cards = [
   {
-    title: 'Project Alpha',
-    text: 'A small project showing advanced networking concepts and tooling.',
-    img: imgTic
-  },
-  {
-    title: 'Visualization',
-    text: 'Interactive visualizations and lightweight animations for data.',
-    img: imgTic2
+    title: 'Chat App',
+    text: 'Real-time chat application with WebSocket support, presence and message history.',
+    img: imgOpenConn
   },
   {
     title: 'C Web Server',
     text: 'Low-level C webserver experiments and performance tuning.',
     img: imgAdvanced
+  },
+  {
+    title: 'GIS Software',
+    text: 'Geospatial information system tools and interactive map visualizations.',
+    img: placeholder
   }
 ];
 

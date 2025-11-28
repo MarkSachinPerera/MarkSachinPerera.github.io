@@ -32,17 +32,17 @@ function Homepage(){
           </Container>
         </section>
 
-        <section id="projects" className="section projects-section fade-in">
-          <Container>
-            <h2 className="text-center mb-4">Projects</h2>
-            <Projects />
-          </Container>
-        </section>
-
         <section id="experience" className="section experience-section fade-in">
           <Container>
             <h2 className="text-center mb-4">Experience</h2>
             <Experience />
+          </Container>
+        </section>
+
+        <section id="projects" className="section projects-section fade-in">
+          <Container>
+            <h2 className="text-center mb-4">Projects</h2>
+            <Projects />
           </Container>
         </section>
       </main>
