@@ -7,12 +7,20 @@ import AboutMe from './Aboutme';
 import Projects from './Projects';
 import Experience from './Experience';
 import GitHubCorner from './GitHubCorner';
+import FeatureCards from './FeatureCards';
 
 function Homepage(){
   return (
     <div className="site-root">
       <SiteNavbar />
       <Hero />
+
+      <section id="features" className="section features-section fade-in">
+        <div className="container">
+          <h2 className="text-center mb-4">Highlights</h2>
+          <FeatureCards />
+        </div>
+      </section>
 
       <main>
         <section id="about" className="section about-section fade-in">
