@@ -40,8 +40,43 @@
   color: rgb(0, 0, 0);
 }
 
+/* Hero styles */
+.hero{
+  background-image: url('../assets/IMG_2315.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.hero-inner{ padding: 6rem 1rem; }
+.hero-title{ font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 700; }
+.hero-subtitle{ font-size: 1.25rem; margin-bottom: 1.25rem; }
+
+.section{ padding: 4rem 0; }
+
+/* small fade-in animation for sections */
+.fade-in{ animation: fadeInUp 600ms ease both; }
+@keyframes fadeInUp{ from{ opacity:0; transform: translateY(12px);} to{ opacity:1; transform: translateY(0);} }
+
+/* Footer */
+.site-footer{ background: #0d1117; color:#c9d1d9; }
+
+/* small tweak to GitHub corner colors if present */
+.octo-arm, .octo-body{ transition: transform .3s ease; }
+.style-svg{ fill:#fff; color:#151513; }
+
 .custom-skills{
   background-color: #ffffff !important;
+}
+
+.about-me{
+  background-color: #ffffff;
+}
+
+.experience-section{
+  background-color: #f8f9fa;
 }
 
 .myProfilePicture{
